@@ -1,0 +1,31 @@
+{
+  "id": "/",
+  "name": "Lecture Bridge",
+  "short_name": "Lecture Bridge",
+  "description": "本地优先的课堂英语实时中文字幕工具",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0d100e",
+  "theme_color": "#111512",
+  "orientation": "any",
+  "categories": ["education", "productivity", "accessibility"],
+  "icons": [
+    {
+      "src": "/lecture-bridge-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/lecture-bridge-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}

@@ -1,0 +1,27 @@
+# Local credentials and environment files (keep the empty template)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencies and generated output
+node_modules/
+.pnpm-store/
+dist/
+dist-server/
+dist-app-server/
+coverage/
+*.tsbuildinfo
+
+# Local logs and OS/editor metadata
+*.log
+logs/
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
